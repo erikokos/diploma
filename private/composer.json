@@ -1,0 +1,21 @@
+{
+    "name": "erikokos/regitest",
+    "description": "testing",
+    "type": "project",
+    "license": "MID",
+    "authors": [
+        {
+            "name": "erikokos",
+            "email": "stegvy@ya.ru"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "Erikokos\\Regitest\\":"app/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/symfony": "^3.3"
+    }
+}
